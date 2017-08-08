@@ -1,0 +1,603 @@
+(dp1
+S'output'
+p2
+S'<class \'conekta.ParameterValidationError\'> {u\'log_id\': u\'597ebda5edbb6e719f51d240\', u\'object\': u\'error\', u\'type\': u\'parameter_validation_error\', u\'details\': [{u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute trip_id" is missing.\', u\'message\': u\'You need to add the param trip_id"\', u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.trip_id.missing\', u\'param\': u\'line_items.0.antifraud_info.trip_id\'}, {u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute driver_id" is missing.\', u\'message\': u\'You need to add the param driver_id"\', u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.driver_id.missing\', u\'param\': u\'line_items.0.antifraud_info.driver_id\'}, {u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute ticket_class" is missing.\', u\'message\': u\'You need to add the param ticket_class"\', u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.ticket_class.missing\', u\'param\': u\'line_items.0.antifraud_info.ticket_class\'}, {u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute pickup_latlon" is missing.\', u\'message\': u\'You need to add the param pickup_latlon"\', u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.pickup_latlon.missing\', u\'param\': u\'line_items.0.antifraud_info.pickup_latlon\'}, {u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute dropoff_latlon" is missing.\', u\'message\': u\'You need to add the param dropoff_latlon"\', u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.dropoff_latlon.missing\', u\'param\': u\'line_items.0.antifraud_info.dropoff_latlon\'}, {u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute paid_transactions" is missing.\', u\'message\': u\'You need to add the param paid_transactions"\', u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.paid_transactions.missing\', u\'param\': u\'customer_info.antifraud_info.paid_transactions\'}, {u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute account_created_at" is missing.\', u\'message\': u\'You need to add the param account_created_at"\', u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.account_created_at.missing\', u\'param\': u\'customer_info.antifraud_info.account_created_at\'}, {u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute first_paid_at" is missing.\', u\'message\': u\'You need to add the param first_paid_at"\', u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.first_paid_at.missing\', u\'param\': u\'customer_info.antifraud_info.first_paid_at\'}]}'
+p3
+sS'layer'
+p4
+S'C:\\Python27\\web2py\\applications\\welcome\\controllers/default.py'
+p5
+sS'code'
+p6
+S'<code object <module> at 047C2218, file "C:\\Python27\\web2py\\applications\\welcome\\controllers/default.py", line 10>'
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__module__'
+p12
+S"'conekta'"
+p13
+sS'__getslice__'
+p14
+S"<method-wrapper '__getslice__' of ParameterValidationError object>"
+p15
+sS'error_json'
+p16
+S'{u\'details\': [{u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.trip_id.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute trip_id" is missing.\', u\'message\': u\'You need to add the param trip_id"\', u\'param\': u\'line_items.0.antifraud_info.trip_id\'}, {u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.driver_id.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute driver_id" is missing.\', u\'message\': u\'You need to add the param driver_id"\', u\'param\': u\'line_items.0.antifraud_info.driver_id\'}, {u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.ticket_class.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute ticket_class" is missing.\', u\'message\': u\'You need to add the param ticket_class"\', u\'param\': u\'line_items.0.antifraud_info.ticket_class\'}, {u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.pickup_latlon.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute pickup_latlon" is missing.\', u\'message\': u\'You need to add the param pickup_latlon"\', u\'param\': u\'line_items.0.antifraud_info.pickup_latlon\'}, {u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.dropoff_latlon.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute dropoff_latlon" is missing.\', u\'message\': u\'You need to add the param dropoff_latlon"\', u\'param\': u\'line_items.0.antifraud_info.dropoff_latlon\'}, {u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.paid_transactions.missing\', u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute paid_transactions" is missing.\', u\'message\': u\'You need to add the param paid_transactions"\', u\'param\': u\'customer_info.antifraud_info.paid_transactions\'}, {u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.account_created_at.missing\', u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute account_created_at" is missing.\', u\'message\': u\'You need to add the param account_created_at"\', u\'param\': u\'customer_info.antifraud_info.account_created_at\'}, {u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.first_paid_at.missing\', u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute first_paid_at" is missing.\', u\'message\': u\'You need to add the param first_paid_at"\', u\'param\': u\'customer_info.antifraud_info.first_paid_at\'}], u\'log_id\': u\'597ebda5edbb6e719f51d240\', u\'object\': u\'error\', u\'type\': u\'parameter_validation_error\'}'
+p17
+sS'__str__'
+p18
+S"<method-wrapper '__str__' of ParameterValidationError object>"
+p19
+sS'__reduce__'
+p20
+S'<built-in method __reduce__ of ParameterValidationError object>'
+p21
+sS'__dict__'
+p22
+S'{\'error_json\': {u\'details\': [{u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.trip_id.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute trip_id" is missing.\', u\'message\': u\'You need to add the param trip_id"\', u\'param\': u\'line_items.0.antifraud_info.trip_id\'}, {u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.driver_id.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute driver_id" is missing.\', u\'message\': u\'You need to add the param driver_id"\', u\'param\': u\'line_items.0.antifraud_info.driver_id\'}, {u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.ticket_class.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute ticket_class" is missing.\', u\'message\': u\'You need to add the param ticket_class"\', u\'param\': u\'line_items.0.antifraud_info.ticket_class\'}, {u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.pickup_latlon.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute pickup_latlon" is missing.\', u\'message\': u\'You need to add the param pickup_latlon"\', u\'param\': u\'line_items.0.antifraud_info.pickup_latlon\'}, {u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.dropoff_latlon.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute dropoff_latlon" is missing.\', u\'message\': u\'You need to add the param dropoff_latlon"\', u\'param\': u\'line_items.0.antifraud_info.dropoff_latlon\'}, {u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.paid_transactions.missing\', u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute paid_transactions" is missing.\', u\'message\': u\'You need to add the param paid_transactions"\', u\'param\': u\'customer_info.antifraud_info.paid_transactions\'}, {u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.account_created_at.missing\', u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute account_created_at" is missing.\', u\'message\': u\'You need to add the param account_created_at"\', u\'param\': u\'customer_info.antifraud_info.account_created_at\'}, {u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.first_paid_at.missing\', u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute first_paid_at" is missing.\', u\'message\': u\'You need to add the param first_paid_at"\', u\'param\': u\'customer_info.antifraud_info.first_paid_at\'}], u\'log_id\': u\'597ebda5edbb6e719f51d240\', u\'object\': u\'error\', u\'type\': u\'parameter_validation_error\'}}'
+p23
+sS'__sizeof__'
+p24
+S'<built-in method __sizeof__ of ParameterValidationError object>'
+p25
+sS'__weakref__'
+p26
+S'None'
+p27
+sS'message'
+p28
+S'{u\'details\': [{u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.trip_id.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute trip_id" is missing.\', u\'message\': u\'You need to add the param trip_id"\', u\'param\': u\'line_items.0.antifraud_info.trip_id\'}, {u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.driver_id.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute driver_id" is missing.\', u\'message\': u\'You need to add the param driver_id"\', u\'param\': u\'line_items.0.antifraud_info.driver_id\'}, {u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.ticket_class.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute ticket_class" is missing.\', u\'message\': u\'You need to add the param ticket_class"\', u\'param\': u\'line_items.0.antifraud_info.ticket_class\'}, {u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.pickup_latlon.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute pickup_latlon" is missing.\', u\'message\': u\'You need to add the param pickup_latlon"\', u\'param\': u\'line_items.0.antifraud_info.pickup_latlon\'}, {u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.dropoff_latlon.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute dropoff_latlon" is missing.\', u\'message\': u\'You need to add the param dropoff_latlon"\', u\'param\': u\'line_items.0.antifraud_info.dropoff_latlon\'}, {u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.paid_transactions.missing\', u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute paid_transactions" is missing.\', u\'message\': u\'You need to add the param paid_transactions"\', u\'param\': u\'customer_info.antifraud_info.paid_transactions\'}, {u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.account_created_at.missing\', u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute account_created_at" is missing.\', u\'message\': u\'You need to add the param account_created_at"\', u\'param\': u\'customer_info.antifraud_info.account_created_at\'}, {u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.first_paid_at.missing\', u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute first_paid_at" is missing.\', u\'message\': u\'You need to add the param first_paid_at"\', u\'param\': u\'customer_info.antifraud_info.first_paid_at\'}], u\'log_id\': u\'597ebda5edbb6e719f51d240\', u\'object\': u\'error\', u\'type\': u\'parameter_validation_error\'}'
+p29
+sS'__init__'
+p30
+S"<bound method ParameterValidationError.__init__ ...customer_info.antifraud_info.first_paid_at'}]},)>"
+p31
+sS'__setattr__'
+p32
+S"<method-wrapper '__setattr__' of ParameterValidationError object>"
+p33
+sS'__reduce_ex__'
+p34
+S'<built-in method __reduce_ex__ of ParameterValidationError object>'
+p35
+sS'__new__'
+p36
+S'<built-in method __new__ of type object>'
+p37
+sS'__format__'
+p38
+S'<built-in method __format__ of ParameterValidationError object>'
+p39
+sS'__class__'
+p40
+S"<class 'conekta.ParameterValidationError'>"
+p41
+sS'__doc__'
+p42
+S'None'
+p43
+sS'__getitem__'
+p44
+S"<method-wrapper '__getitem__' of ParameterValidationError object>"
+p45
+sS'__setstate__'
+p46
+S'<built-in method __setstate__ of ParameterValidationError object>'
+p47
+sS'__getattribute__'
+p48
+S"<method-wrapper '__getattribute__' of ParameterValidationError object>"
+p49
+sS'args'
+p50
+S'({u\'details\': [{u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.trip_id.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute trip_id" is missing.\', u\'message\': u\'You need to add the param trip_id"\', u\'param\': u\'line_items.0.antifraud_info.trip_id\'}, {u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.driver_id.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute driver_id" is missing.\', u\'message\': u\'You need to add the param driver_id"\', u\'param\': u\'line_items.0.antifraud_info.driver_id\'}, {u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.ticket_class.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute ticket_class" is missing.\', u\'message\': u\'You need to add the param ticket_class"\', u\'param\': u\'line_items.0.antifraud_info.ticket_class\'}, {u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.pickup_latlon.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute pickup_latlon" is missing.\', u\'message\': u\'You need to add the param pickup_latlon"\', u\'param\': u\'line_items.0.antifraud_info.pickup_latlon\'}, {u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.dropoff_latlon.missing\', u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute dropoff_latlon" is missing.\', u\'message\': u\'You need to add the param dropoff_latlon"\', u\'param\': u\'line_items.0.antifraud_info.dropoff_latlon\'}, {u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.paid_transactions.missing\', u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute paid_transactions" is missing.\', u\'message\': u\'You need to add the param paid_transactions"\', u\'param\': u\'customer_info.antifraud_info.paid_transactions\'}, {u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.account_created_at.missing\', u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute account_created_at" is missing.\', u\'message\': u\'You need to add the param account_created_at"\', u\'param\': u\'customer_info.antifraud_info.account_created_at\'}, {u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.first_paid_at.missing\', u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute first_paid_at" is missing.\', u\'message\': u\'You need to add the param first_paid_at"\', u\'param\': u\'customer_info.antifraud_info.first_paid_at\'}], u\'log_id\': u\'597ebda5edbb6e719f51d240\', u\'object\': u\'error\', u\'type\': u\'parameter_validation_error\'},)'
+p51
+sS'__subclasshook__'
+p52
+S'<built-in method __subclasshook__ of type object>'
+p53
+sS'__unicode__'
+p54
+S'<built-in method __unicode__ of ParameterValidationError object>'
+p55
+sS'__delattr__'
+p56
+S"<method-wrapper '__delattr__' of ParameterValidationError object>"
+p57
+sS'__repr__'
+p58
+S"<method-wrapper '__repr__' of ParameterValidationError object>"
+p59
+sS'__hash__'
+p60
+S"<method-wrapper '__hash__' of ParameterValidationError object>"
+p61
+ssS'evalue'
+p62
+S'{u\'log_id\': u\'597ebda5edbb6e719f51d240\', u\'object\': u\'error\', u\'type\': u\'parameter_validation_error\', u\'details\': [{u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute trip_id" is missing.\', u\'message\': u\'You need to add the param trip_id"\', u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.trip_id.missing\', u\'param\': u\'line_items.0.antifraud_info.trip_id\'}, {u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute driver_id" is missing.\', u\'message\': u\'You need to add the param driver_id"\', u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.driver_id.missing\', u\'param\': u\'line_items.0.antifraud_info.driver_id\'}, {u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute ticket_class" is missing.\', u\'message\': u\'You need to add the param ticket_class"\', u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.ticket_class.missing\', u\'param\': u\'line_items.0.antifraud_info.ticket_class\'}, {u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute pickup_latlon" is missing.\', u\'message\': u\'You need to add the param pickup_latlon"\', u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.pickup_latlon.missing\', u\'param\': u\'line_items.0.antifraud_info.pickup_latlon\'}, {u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute dropoff_latlon" is missing.\', u\'message\': u\'You need to add the param dropoff_latlon"\', u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.dropoff_latlon.missing\', u\'param\': u\'line_items.0.antifraud_info.dropoff_latlon\'}, {u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute paid_transactions" is missing.\', u\'message\': u\'You need to add the param paid_transactions"\', u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.paid_transactions.missing\', u\'param\': u\'customer_info.antifraud_info.paid_transactions\'}, {u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute account_created_at" is missing.\', u\'message\': u\'You need to add the param account_created_at"\', u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.account_created_at.missing\', u\'param\': u\'customer_info.antifraud_info.account_created_at\'}, {u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute first_paid_at" is missing.\', u\'message\': u\'You need to add the param first_paid_at"\', u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.first_paid_at.missing\', u\'param\': u\'customer_info.antifraud_info.first_paid_at\'}]}'
+p63
+sS'request'
+p64
+cgluon.html
+XML_unpickle
+p65
+(S's_X\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>welcome</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>default</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-5dd67c98-128e-4e01-ba04-74e7a3df6ee7<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_welcome</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-f9eccf8a-84ca-40cc-98e8-7c1fb677fa4a<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>es,en;q=0.8,en-US;q=0.6,pt;q=0.4,pt-BR;q=0.2</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CACHE_CONTROL</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>session_id_welcome=127.0.0.1-f9eccf8a-84ca-40cc-98e8-7c1fb677fa4a; session_id_admin=127.0.0.1-5dd67c98-128e-4e01-ba04-74e7a3df6ee7</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_UPGRADE_INSECURE_REQUESTS</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/welcome/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>56982</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>DESKTOP-4FF4P63</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_SOFTWARE</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;C:\\\\Python27\\\\web2py\\\\applications\\\\admin\\\\&#x27;, &#x27;C:\\\\Python27\\\\web2py\\\\applications\\\\welcome\\\\&#x27;, &#x27;C:\\\\Python27\\\\web2py\\\\applications\\\\examples\\\\&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>C:\\Python27\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x3108440: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;DESKTOP-4FF4P63&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;C:\\\\Python27\\\\web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>C:\\Python27\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>es,en;q=0.8,en-US;q=0.6,pt;q=0.4,pt-BR;q=0.2</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cache_control</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>session_id_welcome=127.0.0.1-f9eccf8a-84ca-40cc-98e8-7c1fb677fa4a; session_id_admin=127.0.0.1-5dd67c98-128e-4e01-ba04-74e7a3df6ee7</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_upgrade_insecure_requests</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>DESKTOP-4FF4P63</div></td></tr><tr><td><div>fe80::14af:7072:8bf2:779%19</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>fe80::3c97:1ac6:4426:3bcd%14</div></td></tr><tr><td><div>172.20.3.55</div></td></tr><tr><td><div>2001:0:5ef5:79fd:3c97:1ac6:4426:3bcd</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/welcome/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>56982</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/welcome/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>DESKTOP-4FF4P63</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_software</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>C:\\Python27\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.15.2-stable+timestamp.2017.07.19.12.18.41</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x0226D0D0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x02F840D8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x0488F170&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x0226D0D0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x02F840D8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x0488F170&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>C:\\Python27\\web2py\\applications\\welcome\\</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;C:\\\\Python27\\\\web2py\\\\applications\\\\admin\\\\&#x27;, &#x27;C:\\\\Python27\\\\web2py\\\\applications\\\\welcome\\\\&#x27;, &#x27;C:\\\\Python27\\\\web2py\\\\applications\\\\examples\\\\&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>C:\\Python27\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x3108440: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;DESKTOP-4FF4P63&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;C:\\\\Python27\\\\web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>C:\\Python27\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>DESKTOP-4FF4P63</div></td></tr><tr><td><div>fe80::14af:7072:8bf2:779%19</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>fe80::3c97:1ac6:4426:3bcd%14</div></td></tr><tr><td><div>172.20.3.55</div></td></tr><tr><td><div>2001:0:5ef5:79fd:3c97:1ac6:4426:3bcd</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.15.2-stable+timestamp.2017.07.19.12.18.41</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_scheduler</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_shell</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2017, 7, 31, 0, 18, 28, 248000)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/welcome/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2017, 7, 31, 5, 18, 28, 248000)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x04976610&gt;</div></td></tr></table></div>'
+tRp66
+sS'frames'
+p67
+(lp68
+(dp69
+S'file'
+p70
+S'C:\\Python27\\web2py\\gluon\\restricted.py'
+p71
+sS'dump'
+p72
+(dp73
+S'environment'
+p74
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'AppConfig': <function AppConfig>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, ...}"
+p75
+sS'ccode'
+p76
+S'<code object <module> at 047C2218, file "C:\\Pyth...cations\\welcome\\controllers/default.py", line 10>'
+p77
+ssS'lnum'
+p78
+I219
+sS'lines'
+p79
+(dp80
+I214
+S'    if environment is None:'
+p81
+sI215
+S'        environment = {}'
+p82
+sI216
+S"    environment['__file__'] = layer"
+p83
+sI217
+S"    environment['__name__'] = '__restricted__'"
+p84
+sI218
+S'    try:'
+p85
+sI219
+S'        exec(ccode, environment)'
+p86
+sI220
+S'    except HTTP:'
+p87
+sI221
+S'        raise'
+p88
+sI222
+S'    except RestrictedError:'
+p89
+sI223
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p90
+ssS'call'
+p91
+S'(ccode=<code object <module> at 047C2218, file "C:\\Pyth...cations\\welcome\\controllers/default.py", line 10>, environment={\'A\': <class \'gluon.html.A\'>, \'ANY_OF\': <class \'gluon.validators.ANY_OF\'>, \'ASSIGNJS\': <function ASSIGNJS>, \'AppConfig\': <function AppConfig>, \'Auth\': <class \'gluon.tools.Auth\'>, \'B\': <class \'gluon.html.B\'>, \'BEAUTIFY\': <class \'gluon.html.BEAUTIFY\'>, \'BODY\': <class \'gluon.html.BODY\'>, \'BR\': <class \'gluon.html.BR\'>, \'BUTTON\': <class \'gluon.html.BUTTON\'>, ...}, layer=r\'C:\\Python27\\web2py\\applications\\welcome\\controllers/default.py\')'
+p92
+sS'func'
+p93
+S'restricted'
+p94
+sa(dp95
+g70
+S'C:\\Python27\\web2py\\applications\\welcome\\controllers\\default.py'
+p96
+sg72
+(dp97
+sg78
+I103
+sg79
+(dp98
+I96
+S'    decorate with @services.jsonrpc the functions to expose'
+p99
+sI97
+S'    supports xml, json, xmlrpc, jsonrpc, amfrpc, rss, csv'
+p100
+sI98
+S'    """'
+p101
+sI99
+S'    return service()'
+p102
+sI100
+S''
+sI101
+S''
+sI92
+S'def call():'
+p103
+sI93
+S'    """'
+p104
+sI94
+S'    exposes services. for example:'
+p105
+sI95
+S'    http://..../[app]/default/call/jsonrpc'
+p106
+ssg91
+S'()'
+p107
+sg93
+S'<module>'
+p108
+sa(dp109
+g70
+S'C:\\Python27\\web2py\\gluon\\globals.py'
+p110
+sg72
+(dp111
+S'self'
+p112
+S'undefined'
+p113
+sS'f'
+S'<function index>'
+p114
+ssg78
+I409
+sg79
+(dp115
+I404
+S"        self.flash = ''            # used by the default view layout"
+p116
+sI405
+S'        self.meta = Storage()      # used by web2py_ajax.html'
+p117
+sI406
+S'        self.menu = []             # used by the default view layout'
+p118
+sI407
+S'        self.files = []            # used by web2py_ajax.html'
+p119
+sI408
+S'        self._vars = None'
+p120
+sI409
+S'        self._caller = lambda f: f()'
+p121
+sI410
+S'        self._view_environment = None'
+p122
+sI411
+S'        self._custom_commit = None'
+p123
+sI412
+S'        self._custom_rollback = None'
+p124
+sI413
+S"        self.generic_patterns = ['*']"
+p125
+ssg91
+S'(f=<function index>)'
+p126
+sg93
+S'<lambda>'
+p127
+sa(dp128
+g70
+S'C:\\Python27\\web2py\\applications\\welcome\\controllers\\default.py'
+p129
+sg72
+(dp130
+sg78
+I52
+sg79
+(dp131
+I47
+S'               "residential": True'
+p132
+sI48
+S'             }'
+p133
+sI49
+S'           },'
+p134
+sI50
+S'          "charges":[{'
+p135
+sI51
+S'            "payment_method": {'
+p136
+sI52
+S'              "type": "oxxo_cash"'
+p137
+sI53
+S'            }'
+p138
+sI54
+S'          }]'
+p139
+sI55
+S'        })'
+p140
+sI56
+S'    print("ID: " + order.id)'
+p141
+ssg91
+S'()'
+p142
+sg93
+S'index'
+p143
+sa(dp144
+g70
+S'C:\\Python27\\lib\\site-packages\\conekta\\__init__.py'
+p145
+sg72
+(dp146
+S'endpoint'
+p147
+S"'orders'"
+p148
+sS'cls.load_url'
+p149
+S"<bound method type.load_url of <class 'conekta.Order'>>"
+p150
+sS'params'
+p151
+S"{'charges': [{'payment_method': {'type': 'oxxo_cash'}}], 'currency': 'MXN', 'customer_info': {'email': 'fulanito@conekta.com', 'name': 'Fulanito P\\xc3\\xa9rez', 'phone': '+5218181818181'}, 'line_items': [{'name': 'Tacos', 'quantity': 12, 'unit_price': 1000}], 'shipping_contact': {'address': {'city': 'Cuahutemoc', 'country': 'MX', 'postal_code': '06100', 'residential': True, 'state': 'Ciudad de Mexico', 'street1': 'Calle 123 int 2 Col. Chida'}, 'phone': '5555555555', 'receiver': 'Bruce Wayne'}, 'shipping_lines': [{'amount': 1500, 'carrier': 'mi compa\\xc3\\xb1ia'}]}"
+p152
+sS'api_key'
+p153
+S'None'
+p154
+sS'method'
+p155
+g113
+sS'cls'
+p156
+S"<class 'conekta.Order'>"
+p157
+ssg78
+I201
+sg79
+(dp158
+I196
+S'class _CreatableResource(_Resource):'
+p159
+sI197
+S''
+sI198
+S'    @classmethod'
+p160
+sI199
+S'    def create(cls, params, api_key=None):'
+p161
+sI200
+S'        endpoint = cls.class_url()'
+p162
+sI201
+S"        return cls(cls.load_url(endpoint, method='POST', params=params, api_key=api_key))"
+p163
+sI202
+S''
+sI203
+S'class _FindableResource(_Resource):'
+p164
+sI204
+S''
+sI205
+S'    @classmethod'
+p165
+ssg91
+S"(cls=<class 'conekta.Order'>, params={'charges': [{'payment_method': {'type': 'oxxo_cash'}}], 'currency': 'MXN', 'customer_info': {'email': 'fulanito@conekta.com', 'name': 'Fulanito P\\xc3\\xa9rez', 'phone': '+5218181818181'}, 'line_items': [{'name': 'Tacos', 'quantity': 12, 'unit_price': 1000}], 'shipping_contact': {'address': {'city': 'Cuahutemoc', 'country': 'MX', 'postal_code': '06100', 'residential': True, 'state': 'Ciudad de Mexico', 'street1': 'Calle 123 int 2 Col. Chida'}, 'phone': '5555555555', 'receiver': 'Bruce Wayne'}, 'shipping_lines': [{'amount': 1500, 'carrier': 'mi compa\\xc3\\xb1ia'}]}, api_key=None)"
+p166
+sg93
+S'create'
+p167
+sa(dp168
+g70
+S'C:\\Python27\\lib\\site-packages\\conekta\\__init__.py'
+p169
+sg72
+(dp170
+S'cls.build_http_request'
+p171
+S"<bound method type.build_http_request of <class 'conekta.Order'>>"
+p172
+sS'_api_key'
+p173
+g113
+sS'response'
+p174
+g113
+sS'params'
+p175
+S"{'charges': [{'payment_method': {'type': 'oxxo_cash'}}], 'currency': 'MXN', 'customer_info': {'email': 'fulanito@conekta.com', 'name': 'Fulanito P\\xc3\\xa9rez', 'phone': '+5218181818181'}, 'line_items': [{'name': 'Tacos', 'quantity': 12, 'unit_price': 1000}], 'shipping_contact': {'address': {'city': 'Cuahutemoc', 'country': 'MX', 'postal_code': '06100', 'residential': True, 'state': 'Ciudad de Mexico', 'street1': 'Calle 123 int 2 Col. Chida'}, 'phone': '5555555555', 'receiver': 'Bruce Wayne'}, 'shipping_lines': [{'amount': 1500, 'carrier': 'mi compa\\xc3\\xb1ia'}]}"
+p176
+sS'path'
+p177
+S"'orders'"
+p178
+sS'api_key'
+p179
+S'None'
+p180
+sS'method'
+p181
+S"'POST'"
+p182
+sS'cls'
+p183
+S"<class 'conekta.Order'>"
+p184
+ssg78
+I112
+sg79
+(dp185
+I107
+S'        else:'
+p186
+sI108
+S'            raise ConektaError(json.loads(body))'
+p187
+sI109
+S''
+sI110
+S'    @classmethod'
+p188
+sI111
+S"    def load_url(cls, path, method='GET', params=None, api_key=None):"
+p189
+sI112
+S'        response = cls.build_http_request(method, path, params, _api_key = api_key)'
+p190
+sI113
+S'        return response'
+p191
+sI114
+S''
+sI115
+S'    @classmethod'
+p192
+sI116
+S'    def class_name(cls):'
+p193
+ssg91
+S"(cls=<class 'conekta.Order'>, path='orders', method='POST', params={'charges': [{'payment_method': {'type': 'oxxo_cash'}}], 'currency': 'MXN', 'customer_info': {'email': 'fulanito@conekta.com', 'name': 'Fulanito P\\xc3\\xa9rez', 'phone': '+5218181818181'}, 'line_items': [{'name': 'Tacos', 'quantity': 12, 'unit_price': 1000}], 'shipping_contact': {'address': {'city': 'Cuahutemoc', 'country': 'MX', 'postal_code': '06100', 'residential': True, 'state': 'Ciudad de Mexico', 'street1': 'Calle 123 int 2 Col. Chida'}, 'phone': '5555555555', 'receiver': 'Bruce Wayne'}, 'shipping_lines': [{'amount': 1500, 'carrier': 'mi compa\\xc3\\xb1ia'}]}, api_key=None)"
+p194
+sg93
+S'load_url'
+p195
+sa(dp196
+g70
+S'C:\\Python27\\lib\\site-packages\\conekta\\__init__.py'
+p197
+sg72
+(dp198
+S'body'
+p199
+S'r\'{"details":[{"debug_message":"The \\"line_items a...ation_error","log_id":"597ebda5edbb6e719f51d240"}\''
+p200
+sS'json.loads'
+p201
+S'<function loads>'
+p202
+sS'global json'
+p203
+S"<module 'json' from 'C:\\Python27\\web2py\\library.zip\\json\\__init__.pyc'>"
+p204
+sS'global ParameterValidationError'
+p205
+S"<class 'conekta.ParameterValidationError'>"
+p206
+ssg78
+I104
+sg79
+(dp207
+I99
+S"        elif headers['status'] == '402' or headers['status'] == '402':"
+p208
+sI100
+S'            raise ProcessingError(json.loads(body))'
+p209
+sI101
+S"        elif headers['status'] == '404' or headers['status'] == '404':"
+p210
+sI102
+S'            raise ResourceNotFoundError(json.loads(body))'
+p211
+sI103
+S"        elif headers['status'] == '422' or headers['status'] == '422':"
+p212
+sI104
+S'            raise ParameterValidationError(json.loads(body))'
+p213
+sI105
+S"        elif headers['status'] == '500' or headers['status'] == '500':"
+p214
+sI106
+S'            raise ApiError(json.loads(body))'
+p215
+sI107
+S'        else:'
+p216
+sI108
+S'            raise ConektaError(json.loads(body))'
+p217
+ssg91
+S"(cls=<class 'conekta.Order'>, method='POST', path='orders', params={'charges': [{'payment_method': {'type': 'oxxo_cash'}}], 'currency': 'MXN', 'customer_info': {'email': 'fulanito@conekta.com', 'name': 'Fulanito P\\xc3\\xa9rez', 'phone': '+5218181818181'}, 'line_items': [{'name': 'Tacos', 'quantity': 12, 'unit_price': 1000}], 'shipping_contact': {'address': {'city': 'Cuahutemoc', 'country': 'MX', 'postal_code': '06100', 'residential': True, 'state': 'Ciudad de Mexico', 'street1': 'Calle 123 int 2 Col. Chida'}, 'phone': '5555555555', 'receiver': 'Bruce Wayne'}, 'shipping_lines': [{'amount': 1500, 'carrier': 'mi compa\\xc3\\xb1ia'}]}, _api_key=None)"
+p218
+sg93
+S'build_http_request'
+p219
+sasS'pyver'
+p220
+S'Python 2.7.9: C:\\Python27\\web2py\\web2py.exe (prefix: C:\\Python27)'
+p221
+sS'session'
+p222
+g65
+(S's\x1a\x00\x00\x00<div><table></table></div>'
+tRp223
+sS'etype'
+p224
+S"<class 'conekta.ParameterValidationError'>"
+p225
+sS'date'
+p226
+S'Mon Jul 31 00:18:29 2017'
+p227
+sS'response'
+p228
+g65
+(S's\x98>\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x042CC9E0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_welcome</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-7ecc07d0-7179-4cc6-bc1d-94aa174b748a<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">form_label_separator</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">formstyle</td><td style="vertical-align:top;">:</td><td><div>bootstrap3_inline</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>*</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">google_analytics_id</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">logo</td><td style="vertical-align:top;">:</td><td><div><a class="navbar-brand" href="http://www.web2py.com/" id="web2py-logo"><b>web<span>2</span>py</b>&trade;&nbsp;</a></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div><table><tr><td><div>Inicio</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/welcome/default/index</div></td></tr><tr><td><div><table></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Mis Sitios</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/site</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Esta Aplicaci\xc3\xb3n</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>#</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Dise\xc3\xb1o</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/design/welcome</div></td></tr></table></div></td></tr><tr><td><div><li class="divider"></li></div></td></tr><tr><td><div><table><tr><td><div>Controlador</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/welcome/controllers/default.py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Vista</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/welcome/views/default/index.html</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Modelo BDD</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/welcome/models/db.py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Modelo "menu"</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/welcome/models/menu.py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Config.ini</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/welcome/private/appconfig.ini</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Dise\xc3\xb1o de p\xc3\xa1gina</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/welcome/views/layout.html</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Hoja de estilo</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/welcome/static/css/web2py-bootstrap3.css</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Base de datos</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/welcome/appadmin/index</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Errores</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/errors/welcome</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Acerca de</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/about/welcome</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>web2py.com</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>#</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Descargas</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/download</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Soporte</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/support</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Demostraci\xc3\xb3n</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/demo_admin</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Ejemplos R\xc3\xa1pidos</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/examples/default/examples</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Preguntas frecuentes</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/AlterEgo</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>V\xc3\xaddeos</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/videos/</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Aplicaciones Libres</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/appliances</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Plugins</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/plugins</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Recetas</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2pyslices.com/</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Documentaci\xc3\xb3n</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>#</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Libro Online</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book</div></td></tr></table></div></td></tr><tr><td><div><li class="divider"></li></div></td></tr><tr><td><div><table><tr><td><div>Prefacio</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/00</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Introducci\xc3\xb3n</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/01</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Python</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/02</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Resumen</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/03</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>El N\xc3\xbacleo</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/04</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Las Vistas</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/05</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Base de datos</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/06</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Formularios y validadores</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/07</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Correo electr\xc3\xb3nico y SMS</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/08</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Control de Acceso</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/09</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Servicios</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/10</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Recetas AJAX</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/11</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Componentes y Plugins</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/12</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Recetas de despliegue</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/13</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Otras Recetas</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/14</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Ayudando a web2py</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/15</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Compra el libro de web2py</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://stores.lulu.com/web2py</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Comunidad</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>None</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Grupos</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/usergroups</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Twitter</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://twitter.com/web2py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Chat en vivo</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://webchat.freenode.net/?channels=web2py</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">author</td><td style="vertical-align:top;">:</td><td><div>Your Name &lt;you@example.com&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">description</td><td style="vertical-align:top;">:</td><td><div>a cool new app</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generator</td><td style="vertical-align:top;">:</td><td><div>Web2py Web Framework</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">keywords</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>web2py</div></td></tr><tr><td><div>python</div></td></tr><tr><td><div>framework</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^default/\\w+\\.py$</div></td></tr><tr><td><div>^default/index/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_welcome</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_file</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_filename</td><td style="vertical-align:top;">:</td><td><div>C:\\Python27\\web2py\\applications\\welcome\\sessions\\127.0.0.1-7ecc07d0-7179-4cc6-bc1d-94aa174b748a</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>c0762cbf4baf7f9af97c051e7fcb8083</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-7ecc07d0-7179-4cc6-bc1d-94aa174b748a</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_welcome</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>welcome</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">subtitle</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">title</td><td style="vertical-align:top;">:</td><td><div>Welcome</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>default/index.html</div></td></tr></table></div>'
+tRp229
+sS'locals'
+p230
+(dp231
+S'body'
+p232
+S'r\'{"details":[{"debug_message":"The \\"line_items a...ation_error","log_id":"597ebda5edbb6e719f51d240"}\''
+p233
+sS'absolute_url'
+p234
+S"'https://api.conekta.io/orders'"
+p235
+sg64
+S'<bound method Http.request of <httplib2.Http object>>'
+p236
+sS'_api_key'
+p237
+S'None'
+p238
+sS'headers'
+p239
+S"{'status': '422', 'content-length': '2566', 'x-x...on/json; charset=utf-8', 'x-runtime': '0.277019'}"
+p240
+sS'params'
+p241
+S"{'charges': [{'payment_method': {'type': 'oxxo_cash'}}], 'currency': 'MXN', 'customer_info': {'email': 'fulanito@conekta.com', 'name': 'Fulanito P\\xc3\\xa9rez', 'phone': '+5218181818181'}, 'line_items': [{'name': 'Tacos', 'quantity': 12, 'unit_price': 1000}], 'shipping_contact': {'address': {'city': 'Cuahutemoc', 'country': 'MX', 'postal_code': '06100', 'residential': True, 'state': 'Ciudad de Mexico', 'street1': 'Calle 123 int 2 Col. Chida'}, 'phone': '5555555555', 'receiver': 'Bruce Wayne'}, 'shipping_lines': [{'amount': 1500, 'carrier': 'mi compa\\xc3\\xb1ia'}]}"
+p242
+sS'path'
+p243
+S"'orders'"
+p244
+sS'method'
+p245
+S"'POST'"
+p246
+sS'cls'
+p247
+S"<class 'conekta.Order'>"
+p248
+sssS'traceback'
+p249
+S'Traceback (most recent call last):\n  File "C:\\Python27\\web2py\\gluon\\restricted.py", line 219, in restricted\n    exec(ccode, environment)\n  File "C:\\Python27\\web2py\\applications\\welcome\\controllers/default.py", line 103, in <module>\n  File "C:\\Python27\\web2py\\gluon\\globals.py", line 409, in <lambda>\n    self._caller = lambda f: f()\n  File "C:\\Python27\\web2py\\applications\\welcome\\controllers/default.py", line 52, in index\n    "type": "oxxo_cash"\n  File "C:\\Python27\\lib\\site-packages\\conekta\\__init__.py", line 201, in create\n    return cls(cls.load_url(endpoint, method=\'POST\', params=params, api_key=api_key))\n  File "C:\\Python27\\lib\\site-packages\\conekta\\__init__.py", line 112, in load_url\n    response = cls.build_http_request(method, path, params, _api_key = api_key)\n  File "C:\\Python27\\lib\\site-packages\\conekta\\__init__.py", line 104, in build_http_request\n    raise ParameterValidationError(json.loads(body))\nParameterValidationError: {u\'log_id\': u\'597ebda5edbb6e719f51d240\', u\'object\': u\'error\', u\'type\': u\'parameter_validation_error\', u\'details\': [{u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute trip_id" is missing.\', u\'message\': u\'You need to add the param trip_id"\', u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.trip_id.missing\', u\'param\': u\'line_items.0.antifraud_info.trip_id\'}, {u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute driver_id" is missing.\', u\'message\': u\'You need to add the param driver_id"\', u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.driver_id.missing\', u\'param\': u\'line_items.0.antifraud_info.driver_id\'}, {u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute ticket_class" is missing.\', u\'message\': u\'You need to add the param ticket_class"\', u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.ticket_class.missing\', u\'param\': u\'line_items.0.antifraud_info.ticket_class\'}, {u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute pickup_latlon" is missing.\', u\'message\': u\'You need to add the param pickup_latlon"\', u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.pickup_latlon.missing\', u\'param\': u\'line_items.0.antifraud_info.pickup_latlon\'}, {u\'debug_message\': u\'The "line_items at index 0 attribute antifraud_info attribute dropoff_latlon" is missing.\', u\'message\': u\'You need to add the param dropoff_latlon"\', u\'code\': u\'conekta.errors.parameter_validation.line_items.antifraud_info.dropoff_latlon.missing\', u\'param\': u\'line_items.0.antifraud_info.dropoff_latlon\'}, {u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute paid_transactions" is missing.\', u\'message\': u\'You need to add the param paid_transactions"\', u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.paid_transactions.missing\', u\'param\': u\'customer_info.antifraud_info.paid_transactions\'}, {u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute account_created_at" is missing.\', u\'message\': u\'You need to add the param account_created_at"\', u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.account_created_at.missing\', u\'param\': u\'customer_info.antifraud_info.account_created_at\'}, {u\'debug_message\': u\'The "customer_info attribute antifraud_info attribute first_paid_at" is missing.\', u\'message\': u\'You need to add the param first_paid_at"\', u\'code\': u\'conekta.errors.parameter_validation.customer_info.antifraud_info.first_paid_at.missing\', u\'param\': u\'customer_info.antifraud_info.first_paid_at\'}]}\n'
+p250
+s.

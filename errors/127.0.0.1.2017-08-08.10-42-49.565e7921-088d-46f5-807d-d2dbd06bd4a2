@@ -1,0 +1,21 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.KeyError'> 0"
+p3
+sS'layer'
+p4
+S'C:\\Python27\\web2py\\applications\\welcome\\controllers/default.py'
+p5
+sS'code'
+p6
+S'<code object <module> at 04246140, file "C:\\Python27\\web2py\\applications\\welcome\\controllers/default.py", line 10>'
+p7
+sS'snapshot'
+p8
+(dp9
+sS'traceback'
+p10
+S'Traceback (most recent call last):\n  File "C:\\Python27\\web2py\\gluon\\restricted.py", line 219, in restricted\n    exec(ccode, environment)\n  File "C:\\Python27\\web2py\\applications\\welcome\\controllers/default.py", line 98, in <module>\n  File "C:\\Python27\\web2py\\gluon\\globals.py", line 409, in <lambda>\n    self._caller = lambda f: f()\n  File "C:\\Python27\\web2py\\applications\\welcome\\controllers/default.py", line 56, in index\n    return dict(order)\n  File "C:\\Python27\\lib\\site-packages\\conekta\\__init__.py", line 49, in __getitem__\n    return self.__dict__[key]\nKeyError: 0\n'
+p11
+s.
